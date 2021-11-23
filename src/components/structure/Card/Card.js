@@ -10,7 +10,7 @@ const Card = (props) => {
           <h5 className="card-title">{ vaga.tipo }</h5>
           <span className="badge bg-primary">{ vaga.localizacao }</span>
           <span className="badge bg-light text-dark">R$ { vaga.valor }</span>
-          <span className="badge bg-light text-dark">{ vaga.imagemUrl }</span>
+          <img src="vaga.imagemUrl" className="badge bg-light text-dark"></img>
         </div>
       </div>
     </Link>
